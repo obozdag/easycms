@@ -1,0 +1,50 @@
+body {
+	/*padding-top: 70px;*/
+}
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+legend {
+    display: inline;
+    padding: 0 .5em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.logo {
+	width: 497px;
+}
+.form-horizontal {
+	padding: 20px;
+}
+.selected-control {
+	background: #fcc;
+	padding: 5px;
+	border-radius: 5px;
+}
+.navbar-brand {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.navbar-brand small {
+	font-size: 12px;
+	font-weight: normal;
+}
+label.error {
+	font-size: .8em;
+	font-weight: normal;
+	color: red;
+}
+main {
+	margin-block: 6rem;
+}
+.errors ul {
+	margin: 0;
+}
+.editor {
+	font-family: monospace;
+}
