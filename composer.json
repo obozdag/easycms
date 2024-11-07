@@ -8,6 +8,6 @@
 		"codeigniter4/shield": "^1.1.0"
 	},
 	"homepage": "https://easycms.fklavye.net",
-	"minimum-stability": ">=0.1.0",
+	"minimum-stability": "^0.1.0alpha",
 	"prefer-stable": true
 }
