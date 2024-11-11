@@ -2,10 +2,8 @@
     "name": "obozdag/easycms",
     "description": "Create and manage websites easily",
     "license": "MIT",
-    "type": "project",
     "require": {
         "php": ">=8.2",
-        "codeigniter4/framework": "^4.5.5",
         "codeigniter4/shield": "^1.1.0"
     },
     "homepage": "https://easycms.fklavye.net"
