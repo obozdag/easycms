@@ -2,6 +2,7 @@
     "name": "obozdag/easycms",
     "description": "Create and manage websites easily",
     "license": "MIT",
+    "type": "project",
     "require": {
         "php": ">=8.2",
         "codeigniter4/shield": "^1.1.0"

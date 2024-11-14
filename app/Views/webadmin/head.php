@@ -6,7 +6,7 @@
 <meta name="keywords" content="<?php echo $webadminConfig->metaKeywords; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link type="image/ico" rel="shortcut icon" href="/media/images/website.ico" />
+<link type="image/ico" rel="shortcut icon" href="/easycms/images/easycms.ico" />
 <script type="text/javascript">
 	const contUrl = '<?php echo $contUrl ?>';
 </script>
