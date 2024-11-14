@@ -11,39 +11,27 @@ class Webadmin extends BaseConfig
 |
 */
 
-public $webadminCSSFiles = array(
-	'bootstrap' => '/_assets/bootstrap/css/bootstrap.min.css',
-	'/_assets/font-awesome/css/font-awesome.css',
-	'/_assets/fonts/fonts.css',
-	'/static/fkl_cms/webadmin.css'
-	);
-
-public $webadminJsFiles = array(
-	'/_assets/jquery/jquery.js',
-	'/_assets/jquery/jquery.validate.js',
-	'bootstrap' => '/_assets/bootstrap/js/bootstrap.bundle.min.js',
-	'/static/fkl_cms/webadmin.js'
-	);
-
-public $addClassSubcategory = false;
-public $captchaWords = 'fklavye, codeigniter, website, search';
-public $contentInfoPlace = '';
-public $contentSubcategoryID = 3;
-public $countVisit = true;
-public $countVisitor = true;
-public $defaultLanguage = 'tr';
-public $editorUrl = '_editor/';
-public $enableProfiler = false;
-public $loginContentID = 41;
-public $metaDescription = 'Almanyada Hayat';
-public $metaKeywords = 'Almanyada Hayat';
-public $showCounter = false;
-public $showGoogleAnalytics = true;
-public $signupContentID = 42;
-public $websiteEmail = 'support@fklavye.net';
-public $websiteName = 'fklavye';
-public $websiteTitle = 'Almanyada Hayat';
-public $websiteTitleShort = 'Almanyada Hayat';
+public $addClassSubcategory;
+public $captchaWords;
+public $contentInfoPlace;
+public $contentSubcategoryID;
+public $countVisit;
+public $countVisitor;
+public $defaultLanguage;
+public $editorUrl;
+public $enableProfiler;
+public $loginContentID;
+public $metaDescription;
+public $metaKeywords;
+public $showCounter;
+public $showGoogleAnalytics;
+public $signupContentID;
+public $webadminCSSFiles;
+public $webadminJsFiles;
+public $websiteEmail;
+public $websiteName;
+public $websiteTitle;
+public $websiteTitleShort;
 
 public $tables_to_backup	= array(
 	'fkl_category',

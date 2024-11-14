@@ -6,20 +6,19 @@
 <meta name="keywords" content="<?php echo $webadminConfig->metaKeywords; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link type="image/ico" rel="shortcut icon" href="/easycms/images/easycms.ico" />
+<link type="image/ico" rel="shortcut icon" href="/static/easycms/easycms.ico" />
 <script type="text/javascript">
 	const contUrl = '<?php echo $contUrl ?>';
 </script>
 <?php
-
-	$cssFiles = $webadminConfig->webadminCSSFiles;
+	$cssFiles = explode(', ', setting()->get('webadmin.webadminCSSFiles'));
 
 	foreach ($cssFiles as $cssFile)
 	{
 		echo '<link type="text/css" media="screen" rel="stylesheet" href="'.$cssFile.'" />'."\n";
 	}
 
-	$jsFiles = $webadminConfig->webadminJsFiles;
+	$jsFiles = explode(', ', setting()->get('webadmin.webadminJsFiles'));
 
 	foreach ($jsFiles as $jsFile)
 	{
