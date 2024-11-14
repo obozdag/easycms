@@ -48,7 +48,7 @@ class Main extends BaseController
 		// $this->session = \Config\Services::session();
 
 		$this->categoryModel      = new CategoryModel();
-		$this->settingModel       = new SettingModel();
+		$this->settingModel      = new SettingModel();
 		$this->contentModel       = new ContentModel();
 		$this->languageModel      = new LanguageModel();
 		$this->pageModel          = new PageModel();

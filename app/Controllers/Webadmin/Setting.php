@@ -30,8 +30,8 @@ class Setting extends Main
 			$row->created_at = $time;
 			$row->updated_at = $time;
       } else {
-			$row->created_at = $time;
 			$row->updated_at = $time;
+			$row->created_at = $time;
       }
 
 		$row->class   = $this->request->getPost('class');
