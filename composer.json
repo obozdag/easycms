@@ -6,7 +6,7 @@
     "require": {
         "php": ">=8.2",
         "codeigniter4/framework": "^4.5.5",
-        "codeigniter4/settings": "^2.1"
+        "codeigniter4/settings": "^2.1",
         "codeigniter4/shield": "^1.1.0"
     },
     "homepage": "https://easycms.fklavye.net"
